@@ -1,1 +1,1 @@
-sum is 70
+Sum is: 4.0
