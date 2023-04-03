@@ -2,12 +2,12 @@
 #include <stdio.h>
 int main()
 {
-  int a;
+  float a;
   int b;
-  int sum;
+  float sum;
   a = 80.5;
   b = 20;
   sum = a + b;
-  printf("sum is result %d + %d = %d", a, b, sum);
+  printf("sum is result %f + %d = %f", a, b, sum);
   return 0;
 }

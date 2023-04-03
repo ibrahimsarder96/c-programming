@@ -3,10 +3,10 @@ int main()
 {
   int x;
   int y;
-  int Variable_count;
+  int sum;
   x = 100;
   y = 20;
-  Variable_count = x + y;
-  printf ("sum is %d", Variable_count);
+  sum = x + y;
+  printf ("sum is %d", sum);
   return  0;
 }

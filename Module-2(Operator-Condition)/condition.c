@@ -1,3 +1,4 @@
+// if & else if use korle takhe ladder bole----------
 #include<stdio.h>
 int main()
 {
