@@ -1,1 +1,1 @@
-## c-programming Math
+## C-Programming
