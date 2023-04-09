@@ -9,7 +9,7 @@ int main()
           break;
         }
         else{
-          printf("Wrong");
+          printf("Wrong\n");
         }
     }
     return 0;
