@@ -4,17 +4,19 @@ int main()
     int a, b, c;
     long long int d;
     scanf("%d%d%d%lld",&a,&b,&c,&d);
-    if(a<d){
-      long long int d = a + b * c;
-      printf("Yes");
+     long long int A = a + b * c;
+     long long int B = a - b + c;
+     long long int C = a * b - c;
+    if(A==d)
+    {
+      printf("YES");
     }
-    else if(a>d){
-      long long int d = a - b + c;
-       printf("Yes");
+    else if(B==d)
+    {
+       printf("YES");
     }
-    else if(a == d){
-        long long int d = a * b - c;
-        printf("No");
+    else if(C!=d){
+        printf("NO");
     }
     return 0;
 }
