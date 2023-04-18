@@ -10,7 +10,7 @@ int main()
     */
   // input take it fgets-------
     char name[15];
-    fgets(name, 16, stdin);
+    fgets(name, 15, stdin);
     printf("%s", name);
     return 0;
 }
