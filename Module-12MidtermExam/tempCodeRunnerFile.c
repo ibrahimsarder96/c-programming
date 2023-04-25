@@ -1,1 +1,1 @@
- int count=0;
+printf("%d %d", c, s);
