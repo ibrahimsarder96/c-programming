@@ -1,1 +1,1 @@
-printf("%d %d", c, s);
+  scanf("%d", &k, &n);
