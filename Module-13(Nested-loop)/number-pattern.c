@@ -7,10 +7,10 @@ int main()
     {
       for(int j = 1; j <= k; j++) // repeat work-------
       {
-        printf("*");
+        printf("%d ", j);
       }
-      k++; // k er value plus plus korte hobe----------
-      printf("\n"); // joto bar kaj korbe---------
+      k++; // k er value minus minus korte hobe----------
+      printf("\n"); // joto bar kaj toto bar new line print---------
     }
     return 0;
 }
