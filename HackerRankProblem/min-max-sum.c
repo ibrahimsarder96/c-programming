@@ -3,20 +3,21 @@ int main()
 {
     int n;
     scanf("%d", &n);
-    int arr[n], min = 0, max = 0;
+    int arr[n], sum = 0;
     for(int i = 0; i < n; i++)
     {
       scanf("%d", &arr[i]);
     }
-    for(int i = 0; i < n - 1; i++)
+    for(int i = 0; i < n; i++)
     {
-      min = min + arr[i];
-    }
-    for(int i = 1; i < n; i++)
+      for(int j = 0; j < n; j++)
     {
-      max = max + arr[i];
-       printf("%d\n",max);
+      if(i!=j)
+      {
+        sum++;
+      }
     }
-      printf("%d %d", min, max);
+    }
+      printf("%d", sum);
     return 0;
 }
