@@ -1,5 +1,5 @@
 #include<stdio.h>
-void fun(int *ar, int n) // use pointer with function parameter pass
+void fun(int ar[], int n) // use pointer with function parameter pass
 {
   for(int i = 0; i < n; i++)
   { 
