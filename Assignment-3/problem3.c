@@ -2,13 +2,9 @@
 int count_before_zero(int *arr, int n)
 {
   int sum = 0;
-  // arr[i]!= 0
     for(int i = 0; i < n; i++){
-      if(arr[i]!= 0){
-        printf("%d\n", arr[i]);
+      if(arr[i]==0) break;
         sum++;
-      }
-      
   }
   return sum;
 }

@@ -1,6 +1,5 @@
-Main function start
-hello function start
-world function start
-world function end
-hello function end
-Main function end
+10
+20
+30
+50
+40

@@ -12,9 +12,7 @@ int checkPrimeNumber(int n) {
 
 int main() {
   int n, flag;
-  printf("Enter a positive integer: ");
   scanf("%d",&n);
-
   flag = checkPrimeNumber(n);
 
   if(flag == 1)
