@@ -13,7 +13,7 @@ int main()
     }
     for(int i = 0; i < row; i++)
     {
-      for(int j = col - 1; j > col; j--)
+      for(int j = col - 1; j >= 0; j--)
       {
         printf("%d ", a[i][j]);
       }
