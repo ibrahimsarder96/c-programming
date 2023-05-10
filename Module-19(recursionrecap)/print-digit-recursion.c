@@ -1,7 +1,10 @@
 #include<stdio.h>
 void fun(int n)
 {
-  if(n==0) return;
+  if(n==0) 
+  {
+    return 0;
+  };
   int x = n % 10;
   fun(n/10);
    printf("%d ", x);
