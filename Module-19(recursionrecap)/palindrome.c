@@ -3,24 +3,23 @@
 int main()
 {
     char a[1001],b[1001];
-    scanf("%c", &a);
+    scanf("%s", &a);
     strcpy(b,a);
     int i = 0, j = strlen(b) - 1;
     while (i<j)
     {
-      int tmp = a[i];
-      a[i] = b[j];
+      int tmp = b[i];
+      b[i] = b[j];
       b[j] = tmp;
       i++;
       j--;
     }
     if(strcmp(a,b)==0)
     {
-      printf("YES");
+      printf("YES\n");
     }
     else{
-      printf("NO");
+      printf("NO\n");
     }
-    
     return 0;
 }
