@@ -4,6 +4,8 @@ int main()
     int n;
     scanf("%d", &n);
     int a[n];
+    int size = (n-1)/2;
+    int size1 = (n+1)/2;
     for(int i = 0; i < n; i++)
     {
             scanf("%d", &a[i]);
@@ -20,10 +22,12 @@ int main()
         }
       }
     }
-     for(int i = 0; i < n; i++)
+     if(n%2==0)
     {
-      if((n+1)/2)
-      printf("%d ", a[i]);
+      printf("%d %d", a[size], a[size1]);
     }
-    return 0;
+    else{
+      printf("%d ", a[size]);
+    }
+      return 0;
 }
