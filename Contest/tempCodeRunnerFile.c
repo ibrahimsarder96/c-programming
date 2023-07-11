@@ -1,6 +1,3 @@
-for(int j = 1; j <= s; j++)
-      // {
-      //   if(s==j){
-      //      printf("#");
-      //   }
-      // }
+ // for(int i = 0; i < t; i++){
+    //   scanf("%d", &t);
+    // }
